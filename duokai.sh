@@ -27,7 +27,7 @@ fi
 docker pull nezha123/titan-edge:1.1
 
 # 创建5个容器
-for i in {1..5}
+for i in {1..20}
 do
     # 为每个容器创建一个存储卷
     storage="titan_storage_$i"
